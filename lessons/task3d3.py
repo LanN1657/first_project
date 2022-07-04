@@ -7,8 +7,8 @@ e = b % 17
 f = c % 17
 
 if d < e and  d < f:
-   print('smallest', d)
+   print('Самое маленькое число', d)
 elif e < d and  e < f:
-   print('smallest', e)
+   print('Самое маленькое число', e)
 else:
-   print('smallest', f)
+   print('Самое маленькое число', f)

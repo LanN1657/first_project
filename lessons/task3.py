@@ -8,4 +8,3 @@ e = d ** 2
 print(e)
 f = e - 193432
 print(f)
-
