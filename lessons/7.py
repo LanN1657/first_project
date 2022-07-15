@@ -2,10 +2,10 @@
 
 def wave(string):
     arr = []
-    k = 0
-    while k < len(string):
-        arr.append(string[:k] + string[k::].title())
-        k += 1
+    a = 0
+    while a < len(string):
+        arr.append(string[:a] + string[a::].title())
+        a += 1
     print(arr)
 
 wave('hello')
